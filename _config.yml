@@ -1,0 +1,40 @@
+# Site settings
+title: 我的部落格
+description: 紀錄生活的部落格
+baseurl: ""
+url: "https://t6y4sun.github.io"
+
+# User settings
+username: sun
+user_description: 住在火星, 目前在 NASA 工作
+user_title: 歡迎來到我的部落格
+email: t6u4sun@gmail.com
+twitter_username: t6u4sun
+github_username: t6u4sun
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: 主頁
+    url: /
+  - title: 分類
+    url: /series
+  - title: 標籤
+    url: /tags
+  - title: 關於
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
