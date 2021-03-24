@@ -1,12 +1,12 @@
 # Site settings
-title: 我的部落格
-description: 紀錄生活的部落格
+title: 無戰不SUN
+description: My學習筆記
 baseurl: ""
 url: "https://t6y4sun.github.io"
 
 # User settings
-username: sun
-user_description: 住在火星, 目前在 NASA 工作
+username: Sun
+user_description: 學習程式的小白
 user_title: 歡迎來到我的部落格
 email: t6u4sun@gmail.com
 twitter_username: t6u4sun
